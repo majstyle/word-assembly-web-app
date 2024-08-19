@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import PrelineScript from "./Preline/PrelineScript";
+import Footer from "./Components/Footer";
+import Navv from "./Components/Navv";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`flex flex-col min-h-screen ${inter.className}`}>
+        <Navv />
+
+        <div className="flex-grow">{children}</div>
+        <Footer />
+        <PrelineScript />
+      </body>
     </html>
   );
 }
