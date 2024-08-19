@@ -36,7 +36,7 @@ export default function Card() {
               <div className="p-4 md:p-5">
                 <h3 className="text-lg font-bold text-gray-800">Messages</h3>
                 <p className="mt-2 text-gray-500">
-                God's word is a light to our path. Listen to the undiluted word of His power and watch your Christian faith grow tremendiously.
+                God&apos;s word is a light to our path. Listen to the undiluted word of His power and watch your Christian faith grow tremendiously.
                 </p>
                 <a
                   className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-yellow-600 decoration-2 hover:text-yellow-700 hover:underline focus:underline focus:outline-none focus:text-yellow-700 disabled:opacity-50 disabled:pointer-events-none"

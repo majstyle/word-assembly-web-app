@@ -33,9 +33,9 @@ export default function Testi() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          I just wanted to say that I'm very happy with my
+                        &apos;I just wanted to say that I'm very happy with my
                           purchase of Preline so far. The documentation is
-                          outstanding - clear and detailed.
+                          outstanding - clear and detailed.&apos;
                         </span>
                       </p>
                     </div>
@@ -73,9 +73,9 @@ export default function Testi() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          I just wanted to say that I'm very happy with my
+                        &apos;I just wanted to say that I'm very happy with my
                           purchase of Preline so far. The documentation is
-                          outstanding - clear and detailed.
+                          outstanding - clear and detailed.&apos;
                         </span>
                       </p>
                     </div>
@@ -113,9 +113,9 @@ export default function Testi() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          I just wanted to say that I'm very happy with my
+                        &apos;I just wanted to say that I'm very happy with my
                           purchase of Preline so far. The documentation is
-                          outstanding - clear and detailed.
+                          outstanding - clear and detailed.&apos;
                         </span>
                       </p>
                     </div>

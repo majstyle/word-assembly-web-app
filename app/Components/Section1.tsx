@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Section1() {
   return (
     <>
@@ -10,15 +12,15 @@ export default function Section1() {
               Become a part of our <span className="text-yellow-500">Family</span>
             </h1>
             <p className="lg:mt-3 lg:text-lg text-gray-800">
-              "and let us consider one another in other to stir up love and good
+            &quot;and let us consider one another in other to stir up love and good
               works, not forsaking the assembling of ourselves together, as is
               the manner of some, but extorting one another, and so much the
-              more, as you see the day approaching" (Hebrew 11:24-25 NKJV)
+              more, as you see the day approaching&quot; (Hebrew 11:24-25 NKJV)
             </p>
           </div>
 
           <div className="relative ms-0">
-            <img
+            <Image
               className="w-full lg:h-96 h-72 rounded-md"
               src="/assets/bgg.jpg"
               alt="Hero Image"
