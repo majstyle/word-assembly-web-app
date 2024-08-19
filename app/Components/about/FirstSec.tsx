@@ -15,7 +15,7 @@ export default function FirstSec() {
             &apos;Word Assembly&apos;s history is a testament to God&apos;s faithfulness and
               the transformative power of His Word. Founded on July 31st, 1994,
               Word Assembly emerged from a divine mandate received by Pastor
-              Philip Igbinijesu to proclaim the righteousness of God's Word.
+              Philip Igbinijesu to proclaim the righteousness of God&apos;s Word.
               From its humble beginnings at Plot 133, Ahmadu Bello Way, Victoria
               Island, Lagos, Word Assembly has grown into a vibrant and
               influential ministry, impacting lives both locally and globally... <a className="text-gray-800 hover:text-yellow-600 font-extrabold" href="#">Read more</a>&apos;
