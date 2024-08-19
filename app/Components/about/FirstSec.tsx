@@ -9,10 +9,10 @@ export default function FirstSec() {
         <div className="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
           <div className="lg:col-span-3">
             <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-4xl lg:text-5xl">
-            &apos;30 Years of God's <span className="text-yellow-500">Faithfulness</span>&apos; 
+            &apos;30 Years of God&apos;s <span className="text-yellow-500">Faithfulness</span>&apos; 
             </h1>
             <p className="mt-3 text-sm text-gray-800">
-            &apos;Word Assembly's history is a testament to God's faithfulness and
+            &apos;Word Assembly&apos;s history is a testament to God&apos;s faithfulness and
               the transformative power of His Word. Founded on July 31st, 1994,
               Word Assembly emerged from a divine mandate received by Pastor
               Philip Igbinijesu to proclaim the righteousness of God's Word.
