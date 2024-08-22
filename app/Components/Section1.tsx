@@ -23,6 +23,8 @@ export default function Section1() {
             <Image
               className="w-full lg:h-96 h-72 rounded-md"
               src="/assets/bgg.jpg"
+              width={50}
+              height={40}
               alt="Hero Image"
             />
             <div className="absolute inset-0 -z-[1] bg-gradient-to-tr from-gray-200 via-white/0 to-white/0 size-full rounded-md mt-4 -mb-4 me-4 -ms-4 lg:mt-6 lg:-mb-6 lg:me-6 lg:-ms-6"></div>
