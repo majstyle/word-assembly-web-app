@@ -2,7 +2,7 @@ import Card from "../Components/about/Card";
 import FirstSec from "../Components/about/FirstSec";
 import Gallary from "../Components/about/Gallary";
 import Hero from "../Components/about/Hero";
-import MapComponent from "../Components/about/Map";
+// import MapComponent from "../Components/about/Map";
 
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
       <FirstSec />
       <Card />
       <Gallary />
-      <MapComponent />
+      {/* <MapComponent /> */}
     </>
   );
 }
