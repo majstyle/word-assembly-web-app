@@ -9,9 +9,9 @@ import 'leaflet/dist/leaflet.css';
 export default function MapComponent() {
   useEffect(() => {
     // Fix for SSR (Server-Side Rendering) in Next.js
-    if (typeof window !== 'undefined') {
+    // if (typeof window !== 'undefined') {
       require('leaflet/dist/leaflet.css');
-    }
+    // }
   }, []);
 
   return (
