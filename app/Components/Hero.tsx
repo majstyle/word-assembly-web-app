@@ -1,58 +1,103 @@
-export default function Hero() {
-  return (
-    <>
-      {/* Slider */}
-      <div className="bg-hero-pattern bg-cover bg-center h-96 lg:w-full lg:h-screen text-center leading-3">
-        <h1 className="text-3xl text-center lg:text-center lg:flex lg:items-center lg:flex-col lg:pt-40 pt-10 text-gray-800 font-bold lg:text-7xl lg:leading-tight dark:text-slate-100">
-          Welcome To Word Assembly{" "}
-        </h1>
-        <span className="text-slate-200 lg:text-2xl text-sm lg:flex lg:justify-center pt-4 lg:pt-0">
-          We raise leaders that are spiritually and socially relevant
-        </span>
-        <div className="flex flex-col gap-y-5 items-center mt-6 lg:flex-row lg:justify-center lg:gap-x-2 lg:mt-10">
-          <a
-            className="py-3 px-6 inline-flex justify-center items-center text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-gray-800 hover:bg-yellow-600 focus:outline-none focus:bg-red-500 disabled:opacity-50 disabled:pointer-events-none"
-            href="#"
-          >
-            View Locations
-            <svg
-              className="ml-2 shrink-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="m9 18 6-6-6-6" />
-            </svg>
-          </a>
+"use client";
 
-          <a
-            className="py-3 px-6 inline-flex justify-center items-center text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-gray-800 hover:bg-yellow-600 focus:outline-none focus:bg-red-500 disabled:opacity-50 disabled:pointer-events-none"
-            href="#"
-          >
-            Join Online
-            <svg
-              className="ml-2 shrink-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="m9 18 6-6-6-6" />
-            </svg>
-          </a>
-        </div>
+import Link from "next/link";
+
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+const words = [
+  "Worship",
+  "Praise",
+  "Fellowship",
+  "Transformation",
+  "Grow",
+  "Serve",
+];
+
+export default function Hero() {
+  const [currentWord, setCurrentWord] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentWord((prev) => (prev + 1) % words.length);
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <section className="relative w-full h-[90vh] lg:h-screen bg-cover bg-center text-yellow-200 overflow-hidden">
+      <video
+        autoPlay
+        muted
+        loop
+        className="absolute inset-0 w-full h-screen object-cover lg:mt-16 bg-{fixed}"
+      >
+        <source src="/assets/10SECONDS.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-black opacity-70">
+        {[...Array(50)].map((_, i) => (
+          <motion.div
+            key={i}
+            className="absolute bg-white rounded-full"
+            initial={{
+              opacity: Math.random(),
+              x: `${Math.random() * 100}%`,
+              y: `${Math.random() * 100}%`,
+              scale: Math.random() * 0.5 + 0.5,
+            }}
+            animate={{
+              y: ["0%", "100%"],
+              transition: {
+                duration: Math.random() * 10 + 10,
+                repeat: Infinity,
+                ease: "linear",
+              },
+            }}
+            style={{
+              width: `${Math.random() * 5 + 1}px`,
+              height: `${Math.random() * 5 + 1}px`,
+              fontWeight: "bold",
+            }}
+          />
+        ))}
       </div>
-    </>
+
+      <div className="relative z-10 flex flex-col items-center justify-center h-full px-4">
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-5xl lg:text-7xl font-bold mb-6 text-center mt-12 lg:mt-16"
+        >
+          Welcome To Church
+        </motion.h1>
+
+        <div className="h-20 mb-1">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={currentWord}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.5 }}
+              className="text-3xl md:text-5xl font-semi-bold text-center"
+            >
+              {words[currentWord]}
+            </motion.div>
+          </AnimatePresence>
+        </div>
+
+        <Link href="/about">
+          <motion.button
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="px-10 py-2 border border-yellow-200 text-yellow-200 rounded-lg font-semibold text-lg shadow-lg transition duration-300"
+          >
+            Explore
+          </motion.button>
+        </Link>
+      </div>
+    </section>
   );
 }

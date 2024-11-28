@@ -14,7 +14,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "hero-pattern":
-          "linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/bgg.jpg')",
+          "linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/VisionHero.jpg')",
+
+        "top-hero":
+          "linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/10SECONDS.MP4')",
       },
     },
   },

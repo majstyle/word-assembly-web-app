@@ -15,11 +15,8 @@ export default function Footer() {
                 Word Assembly
               </a>
               <p className="text-gray-400 lg:mt-6 mt-4 lg:text-base text-sm">
-                Plan your visit to any of our{" "}
-                <a className="font-extrabold text-yellow-500" href="#">
-                  locations
-                </a>{" "}
-                and experience transformation.
+                Plan your visit to any of our locations and experience
+                transformation.
                 <br />
                 <br />
                 7, Hitech Road, Beside Pan-Atlantic University (LBS), Lekki-Epe
@@ -30,7 +27,7 @@ export default function Footer() {
                 <br />
                 <a
                   className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                  href="#"
+                  href="mailto:admin@wordassembly.org"
                 >
                   admin@wordassembly.org
                 </a>
@@ -44,7 +41,7 @@ export default function Footer() {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                    href="#"
+                    href="/about"
                   >
                     About us
                   </a>
@@ -52,7 +49,7 @@ export default function Footer() {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                    href="#"
+                    href="https://www.youtube.com/@WordAssembly"
                   >
                     Sermons
                   </a>
@@ -60,7 +57,7 @@ export default function Footer() {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                    href="#"
+                    href="https://www.leadershipdevotional.org/"
                   >
                     Leadership Devotional
                   </a>{" "}
@@ -69,16 +66,16 @@ export default function Footer() {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                    href="#"
+                    href="https://proofproducersleadershipinstitute.org/"
                   >
-                    Leadership Institute
+                    Proof Producers Leadership Institute
                   </a>{" "}
                 </p>
 
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                    href="#"
+                    href="https://chat.whatsapp.com/JxunmOOThqyCIQDskpqz5Q"
                   >
                     Counselling
                   </a>
@@ -87,9 +84,9 @@ export default function Footer() {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 focus:outline-none focus:text-gray-200"
-                    href="#"
+                    href="https://chat.whatsapp.com/JxunmOOThqyCIQDskpqz5Q"
                   >
-                    Give
+                    Prayer Request
                   </a>
                 </p>
               </div>
@@ -125,7 +122,6 @@ export default function Footer() {
                     Subscribe
                   </a>
                 </div>
-                
               </form>
             </div>
             {/* End Col */}
@@ -134,7 +130,7 @@ export default function Footer() {
 
           <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
             <div className="flex justify-between items-center">
-              <p className="text-sm text-red-400">
+              <p className="text-sm text-white">
                 © 2024 Word Assembly. All rights reserved.
               </p>
             </div>

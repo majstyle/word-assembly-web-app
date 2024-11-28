@@ -1,7 +1,7 @@
 export default function Testi() {
   return (
     <>
-      <div className="w-full bg-white rounded-lg lg:mb-20">
+      <div className="w-full bg-white rounded-lg lg:mb-6">
         <div
           data-hs-carousel='{
       "loadingClasses": "opacity-0",
@@ -9,7 +9,7 @@ export default function Testi() {
     }'
           className="relative"
         >
-          <div className="hs-carousel relative overflow-hidden w-full min-h-96 bg-white rounded-lg">
+          <div className="hs-carousel relative overflow-hidden w-full min-h-80 lg:min-h-96 bg-white rounded-lg">
             <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
               <div className="hs-carousel-slide">
                 {/* Testimonials */}
@@ -33,9 +33,9 @@ export default function Testi() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                        &apos;I just wanted to say that I&apos;m very happy with my
-                          purchase of Preline so far. The documentation is
-                          outstanding - clear and detailed.&apos;
+                          &apos;I just wanted to say that I&apos;m very happy
+                          with my purchase of Preline so far. The documentation
+                          is outstanding - clear and detailed.&apos;
                         </span>
                       </p>
                     </div>
@@ -73,9 +73,9 @@ export default function Testi() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                        &apos;I just wanted to say that I&apos;m very happy with my
-                          purchase of Preline so far. The documentation is
-                          outstanding - clear and detailed.&apos;
+                          &apos;I just wanted to say that I&apos;m very happy
+                          with my purchase of Preline so far. The documentation
+                          is outstanding - clear and detailed.&apos;
                         </span>
                       </p>
                     </div>
@@ -113,9 +113,9 @@ export default function Testi() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                        &apos;I just wanted to say that I&apos;m very happy with my
-                          purchase of Preline so far. The documentation is
-                          outstanding - clear and detailed.&apos;
+                          &apos;I just wanted to say that I&apos;m very happy
+                          with my purchase of Preline so far. The documentation
+                          is outstanding - clear and detailed.&apos;
                         </span>
                       </p>
                     </div>
