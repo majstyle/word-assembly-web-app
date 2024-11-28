@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "pnpm install --lockfile-only"
   },
   "dependencies": {
     "@preline/carousel": "^2.4.1",
