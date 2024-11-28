@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -259,12 +260,12 @@ export default function Page() {
                   <div className="grow">
                     <p className="text-sm text-gray-600">Email us</p>
                     <p>
-                      <a
+                      <Link
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
                         admin@wordassembly.org
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
@@ -288,12 +289,12 @@ export default function Page() {
                   <div className="grow">
                     <p className="text-sm text-gray-600">Call us</p>
                     <p>
-                      <a
+                      <Link
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
                         +234 805 888 1818
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>

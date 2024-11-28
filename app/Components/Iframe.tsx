@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Iframe() {
   return (
     <>
@@ -23,7 +25,7 @@ export default function Iframe() {
               <p className="text-gray-800 lg:text-xl text-lg pb-2 lg:pb-5 lg:ml-2 text-center lg:text-left">
                 Join us this Sunday Services.{" "}
               </p>
-              <a
+              <Link
                 className="py-2 px-3 lg:py-3 lg:px-6 w-full lg:w-40 inline-flex justify-center items-center lg:ml-2 gap-x-0 text-sm font-medium rounded-lg border border-transparent bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-none focus:bg-red-500 disabled:opacity-50 disabled:pointer-events-none"
                 href="https://www.youtube.com/@WordAssembly"
               >
@@ -42,7 +44,7 @@ export default function Iframe() {
                 >
                   <path d="m9 18 6-6-6-6" />
                 </svg>
-              </a>
+              </Link>
             </div>
             {/* End Timeline */}
           </div>
