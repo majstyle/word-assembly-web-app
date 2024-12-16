@@ -134,10 +134,10 @@ export default function Page() {
                           Lord, assuring me that this was my &quot;place of
                           honor&quot; and instructing me to remain. I obeyed,
                           went through the membership track, and joined the
-                          choir. To God be the glory, I've experienced numerous
-                          blessings within the church. Most remarkably, on the
-                          same week I graduated from university in October this
-                          year, I secured a job.
+                          choir. To God be the glory, I&apos;ve experienced
+                          numerous blessings within the church. Most remarkably,
+                          on the same week I graduated from university in
+                          October this year, I secured a job.
                         </span>
                       </p>
                     </div>

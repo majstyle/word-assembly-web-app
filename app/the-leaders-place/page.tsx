@@ -7,7 +7,7 @@ export default function Page() {
       {/* Hero*/}
       <div className="bg-hero-pattern bg-cover bg-center h-72 lg:w-full lg:h-96 text-center leading-3 bg-fixed">
         <h1 className="text-4xl text-center lg:text-center lg:flex lg:items-center lg:flex-col lg:pt-40 pt-36 font-bold lg:text-5xl lg:leading-tight dark:text-slate-100">
-          The Leaders' Place{" "}
+          The Leaders&apos; Place{" "}
         </h1>
 
         <div className="flex flex-col gap-y-5 items-center mt-6 lg:flex-row lg:justify-center lg:gap-x-2 lg:mt-10"></div>

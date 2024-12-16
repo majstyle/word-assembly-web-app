@@ -128,17 +128,18 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          I am grateful to testify about God's divine guidance
-                          and provision in my life. I was eager to accept a
-                          paramilitary job offer in Abuja when, during a Sunday
-                          service, my Pastor shared a word of knowledge warning
-                          someone against taking such a job, assuring them that
-                          God had a better plan in Lagos. I knew the message was
-                          for me and obeyed, declining the offer. That decision
-                          opened the door to incredible blessings. I later met
-                          my husband, and together we started a business that
-                          now employs nearly 100 people. I thank God for His
-                          guidance, which transformed my life and future!
+                          I am grateful to testify about God&apos;s divine
+                          guidance and provision in my life. I was eager to
+                          accept a paramilitary job offer in Abuja when, during
+                          a Sunday service, my Pastor shared a word of knowledge
+                          warning someone against taking such a job, assuring
+                          them that God had a better plan in Lagos. I knew the
+                          message was for me and obeyed, declining the offer.
+                          That decision opened the door to incredible blessings.
+                          I later met my husband, and together we started a
+                          business that now employs nearly 100 people. I thank
+                          God for His guidance, which transformed my life and
+                          future!
                         </span>
                       </p>
                     </div>

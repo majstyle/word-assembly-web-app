@@ -133,13 +133,13 @@ export default function Page() {
                         <span className="relative z-10 italic text-gray-800">
                           Glory to God in the highest who delivered I and my
                           house from domestic accident, my neighbor used my gas
-                          but didn't know how to put it off, rather she turned
-                          it to the lowest part thinking it has gone off.. past
-                          an hour later I hurried into my kitchen to cook, on
-                          lighting the gas there was fire allover the gas and
-                          even to my hand that light the gas, but God controlled
-                          the fire that it didn't extend... I return all the
-                          glory to God.
+                          but didn&apos;t know how to put it off, rather she
+                          turned it to the lowest part thinking it has gone
+                          off.. past an hour later I hurried into my kitchen to
+                          cook, on lighting the gas there was fire allover the
+                          gas and even to my hand that light the gas, but God
+                          controlled the fire that it didn&apos;t extend... I
+                          return all the glory to God.
                         </span>
                       </p>
                     </div>
