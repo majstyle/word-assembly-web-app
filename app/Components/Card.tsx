@@ -7,7 +7,7 @@ export default function Card() {
       <h1 className="text-center lg:mt-20 -mt-10 lg:text-4xl text-2xl font-bold text-gray-800">
         How we can serve you
       </h1>
-      <p className="mt-1 text-gray-800 text-center px-5 lg:px-32 lg:text-lg ">
+      <p className="mt-1 text-gray-800 text-center px-5 lg:px-40 lg:text-lg ">
         Our dedicated counseling and prayer team is here to support you in every
         way possible. Whether you need guidance, encouragement, or someone to
         stand with you in prayer, we are committed to walking alongside you on
