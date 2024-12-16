@@ -4,7 +4,7 @@ export default function Section2() {
   return (
     <>
       {/* Features */}
-      <div className="max-w-[75rem] px-4 lg:px-16 lg:py-14 ">
+      <div className="max-w-[75rem] px-4 lg:px-14 lg:py-14 ">
         {/* Grid */}
         <div className="flex items-center justify-center">
           <div className="mt-20 lg:grid lg:grid-cols-2 lg:items-center">
