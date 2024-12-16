@@ -14,15 +14,14 @@ export default function Section2() {
                 <div className="lg:flex lg:flex-col lg:gap-0">
                   <div className=" bg-[url(/assets/family1.png)] bg-contain bg-center w-64 h-44 rounded-xl bg-no-repeat" />
                   {/* End Col */}
+                  <div className=" bg-[url(/assets/business.png)] bg-contain bg-center w-64 h-44 rounded-xl bg-no-repeat" />
 
-                  <div className=" bg-[url(/assets/leadership.png)] bg-contain bg-center w-64 h-44 rounded-xl bg-no-repeat" />
                   {/* End Col */}
                 </div>
 
                 <div className="lg:flex lg:flex-col lg:gap-0">
-                  <div className=" bg-[url(/assets/business.png)] bg-contain bg-center w-64 h-44 rounded-xl bg-no-repeat" />
                   <div className=" bg-[url(/assets/theology.png)] bg-contain bg-center w-64 h-44 rounded-xl bg-no-repeat" />
-
+                  <div className=" bg-[url(/assets/leadership.png)] bg-contain bg-center w-64 h-44 rounded-xl bg-no-repeat" />
                   {/* End Col */}
                 </div>
               </div>
