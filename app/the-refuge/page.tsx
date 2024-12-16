@@ -67,7 +67,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-sm md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -83,17 +83,22 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          Two weeks before our 30th Anniversary, our pastor
+                          declared God would give anniversary gifts to believers
+                          and urged us to celebrate in faith. I had been jobless
+                          for over three years but started dancing in faith
+                          after encouragement from a friend. Following the
+                          pastor&apos;s prayer and advice, I stepped out,
+                          resubmitted my CV, and that same week, I got a job!
+                          The long season of unemployment was broken. Praise
+                          God!
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-2">
+                      <div className="font-semibold text-gray-800">
+                        Sis. Gloria A.
                       </div>
                     </footer>
                   </blockquote>
@@ -107,7 +112,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -123,17 +128,23 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I joined Word Assembly the Refuge in 2022, but my
+                          attendance was irregular as I considered leaving.
+                          However, in 2023, I received a revelation from the
+                          Lord, assuring me that this was my &quot;place of
+                          honor&quot; and instructing me to remain. I obeyed,
+                          went through the membership track, and joined the
+                          choir. To God be the glory, I've experienced numerous
+                          blessings within the church. Most remarkably, on the
+                          same week I graduated from university in October this
+                          year, I secured a job.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Bro. Daniel G.
                       </div>
                     </footer>
                   </blockquote>
@@ -147,7 +158,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -163,17 +174,23 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I joined Word Assembly during my first year of
+                          university, and it has truly transformed my life. The
+                          teachings equipped me to start a business with my
+                          sister, which supported us financially through school.
+                          Earlier this year, I faced severe stomach pains but
+                          received prayer and was completely healed. Today,
+                          I&apos;ve grown into a leader, taking on
+                          responsibilities in both church and life. I&apos;m
+                          deeply grateful for the impact Word Assembly has had
+                          on me. Praise God!
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Sis. Stella
                       </div>
                     </footer>
                   </blockquote>
@@ -224,10 +241,10 @@ export default function Page() {
                   </svg>
 
                   <div className="grow">
-                    <p className="text-sm text-gray-600">Lagos State</p>
+                    <p className="text-sm text-gray-600">Rivers State</p>
                     <address className="mt-1 text-black not-italic w-full">
-                      7, Hitech Road, Beside Pan-Atlantic University (LBS),
-                      Lekki-Epe Expressway, Lagos.
+                      No. 3 Rumuola Link Road beside, Emerald Hotel Rumuola,
+                      Port Harcourt, Rivers State.
                     </address>
                   </div>
                 </div>
@@ -258,13 +275,13 @@ export default function Page() {
                   </svg>
 
                   <div className="grow">
-                    <p className="text-sm text-gray-600">Email us</p>
+                    <p className="text-sm text-gray-600 ">Email us</p>
                     <p>
                       <Link
-                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
+                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black text-sm"
                         href="mailto:example@site.so"
                       >
-                        admin@wordassembly.org
+                        wordassemblytherefuge@gmail.com
                       </Link>
                     </p>
                   </div>
@@ -272,7 +289,7 @@ export default function Page() {
 
                 <div className="flex gap-4">
                   <svg
-                    className="shrink-0 size-5 text-gray-500"
+                    className="shrink-0 size-5 text-gray-500 lg:ml-10"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -293,7 +310,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +234 805 888 1818
+                        +234 811 830 70113.
                       </Link>
                     </p>
                   </div>

@@ -17,7 +17,7 @@ export default function Testi() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-sm md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -33,17 +33,20 @@ export default function Testi() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          During the 40 Days of Glory, God answered our
+                          prayers—my missing brother called today from Portugal
+                          and plans to return next week. My mum and brother,
+                          once dependent on drugs, have not needed them since
+                          the prayers. God has also transformed my prayer life
+                          and given me clarity in my walk with Him. All glory to
+                          God!
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        John Atime
                       </div>
                     </footer>
                   </blockquote>
@@ -57,7 +60,7 @@ export default function Testi() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-sm md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -73,18 +76,21 @@ export default function Testi() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I&apos;m over myself with joy this morning. We must
+                          learn not to ignore the prompting of the Holy Spirit.
+                          My brother and his wife woke up this morning and felt
+                          a strong nudge not to take the children to school.
+                          They literally dressed, undressed, and redressed the
+                          kids this morning. They had barely rode 5 minutes away
+                          from the house when my brother and all three kids were
+                          involved in an accident But God being faithful, they
+                          all came out UNHURT.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
-                      </div>
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">Olivia</div>
                     </footer>
                   </blockquote>
                   {/* End Blockquote */}
@@ -97,7 +103,7 @@ export default function Testi() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-sm md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -113,17 +119,21 @@ export default function Testi() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          God has been incredibly good to my family and me this
+                          year. We have experienced His divine help in every
+                          area of our lives. He has provided for us in
+                          remarkable ways, cared for our children, protected us
+                          every step of the way, and strengthened us through
+                          every challenge. His faithfulness has been our anchor,
+                          and we are deeply grateful for His unending love and
+                          grace.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Minister E-Praise
                       </div>
                     </footer>
                   </blockquote>

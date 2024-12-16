@@ -5,8 +5,8 @@ export default function Navv() {
   return (
     <>
       {/* HEADER */}
-      <header className="fixed shadow-xl flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full h-16 bg-white border-b border-gray-200 lg:px-10">
-        <nav className="relative max-w-[75rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2 px-4 sm:px-6 lg:px-16">
+      <header className="fixed shadow-xl flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full h-16 bg-white  lg:px-10">
+        <nav className="relative max-w-[75rem] w-full mx-auto md:flex md:items-center md:justify-between md:gap-3 py-2 px-2 sm:px-6 lg:px-16">
           <div className="flex justify-between items-center gap-x-1">
             <Link
               className="flex-none font-semibold text-xl text-black focus:outline-none focus:opacity-80"
@@ -16,8 +16,8 @@ export default function Navv() {
               <Image
                 src="/assets/waLOGO.png"
                 alt="Logo"
-                width={130}
-                height={130}
+                width={120}
+                height={120}
               ></Image>
             </Link>
 
@@ -70,10 +70,10 @@ export default function Navv() {
           {/* Collapse */}
           <div
             id="hs-header-base"
-            className="hs-collapse hidden overflow-hidden transition-all duration-400 basis-full grow md:block "
+            className="hs-collapse hidden overflow-hidden transition-all duration-400 basis-full grow md:block"
             aria-labelledby="hs-header-base-collapse"
           >
-            <div className="bg-white overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
+            <div className="bg-white overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-4 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300">
               <div className="py-2 md:py-0  flex flex-col md:flex-row md:items-center gap-0.5 md:gap-1">
                 <div className="grow">
                   <div className="flex flex-col md:flex-row md:justify-end md:items-center gap-0.5 md:gap-1">
@@ -208,18 +208,16 @@ export default function Navv() {
                                       </Link>
                                       {/* End Link */}
 
-                                      {/* Link */}
                                       <Link
                                         className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/bethel-house"
+                                        href="/the-refuge"
                                       >
                                         <div className="grow">
                                           <p className="text-sm text-gray-800">
-                                            Bethel House
+                                            The Refuge
                                           </p>
                                         </div>
                                       </Link>
-                                      {/* End Link */}
 
                                       {/* Link */}
                                       <Link
@@ -349,16 +347,6 @@ export default function Navv() {
                                         </div>
                                       </Link>
 
-                                      <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/the-refuge"
-                                      >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            The Refuge
-                                          </p>
-                                        </div>
-                                      </Link>
                                       {/* End Link */}
                                     </div>
                                   </div>
@@ -450,30 +438,47 @@ export default function Navv() {
 
                     {/* Dropdown */}
                     <div className="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] [--is-collapse:true] md:[--is-collapse:false] ">
-                      <button
-                        id="hs-header-base-dropdown"
-                        type="button"
-                        className="hs-dropdown-toggle w-full p-2 flex items-center text-sm text-gray-800 hover:bg-yellow-400 rounded-lg focus:outline-none focus:bg-gray-100"
-                        aria-haspopup="menu"
-                        aria-expanded="false"
-                        aria-label="Dropdown"
-                      >
-                        Schools
-                        <svg
-                          className="hs-dropdown-open:-rotate-180 md:hs-dropdown-open:rotate-0 duration-300 shrink-0 size-4 ms-auto md:ms-1"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                      <Link href="#">
+                        <button
+                          id="hs-header-base-mega-menu-medium"
+                          type="button"
+                          className="hs-dropdown-toggle w-full p-2 flex items-center text-sm text-gray-800 hover:bg-yellow-400 rounded-lg focus:outline-none focus:bg-gray-100"
+                          aria-haspopup="menu"
+                          aria-expanded="false"
+                          aria-label="Mega Menu"
                         >
-                          <path d="m6 9 6 6 6-6" />
-                        </svg>
-                      </button>
+                          <svg
+                            className="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
+                          </svg>
+                          Schools
+                          <svg
+                            className="hs-dropdown-open:-rotate-180 md:hs-dropdown-open:rotate-0 duration-300 shrink-0 size-4 ms-auto md:ms-1"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="m6 9 6 6 6-6" />
+                          </svg>
+                        </button>
+                      </Link>
 
                       <div
                         className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 relative w-full md:w-52 hidden z-10 top-full ps-7 md:ps-0 md:bg-white md:rounded-lg md:shadow-md before:absolute before:-top-4 before:start-0 before:w-full before:h-5 md:after:hidden after:absolute after:top-1 after:start-[18px] after:w-0.5 after:h-[calc(100%-0.25rem)] after:bg-gray-100"

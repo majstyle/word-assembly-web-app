@@ -67,7 +67,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -83,17 +83,25 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          We thank God for bringing us to Word Assembly. Since
+                          joining, we&apos;ve grown spiritually, financially,
+                          and socially. God blessed our marriage, breaking
+                          barrenness in our 5th year with the birth of our
+                          daughter. Through teachings by Pastors Ugo and Pastor
+                          Philip, and a prophetic blessing during a Business
+                          Prayer meeting, God brought light to our business.
+                          We&apos;ve also learned to build relationships and
+                          grow socially. Special thanks to Pastor Ngozi for her
+                          timely prayers and the PPBC Mentorship, which enriched
+                          our lives. We&apos;re still growing and trust God to
+                          keep leading us. To God be the glory!
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-2">
+                      <div className="font-semibold text-gray-800">
+                        Bro. Moses and Sis. Hope Ochei
                       </div>
                     </footer>
                   </blockquote>
@@ -107,7 +115,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -123,17 +131,22 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          Glory to God in the highest who delivered I and my
+                          house from domestic accident, my neighbor used my gas
+                          but didn't know how to put it off, rather she turned
+                          it to the lowest part thinking it has gone off.. past
+                          an hour later I hurried into my kitchen to cook, on
+                          lighting the gas there was fire allover the gas and
+                          even to my hand that light the gas, but God controlled
+                          the fire that it didn't extend... I return all the
+                          glory to God.
                         </span>
                       </p>
                     </div>
 
                     <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                      <div className="font-semibold text-gray-800">
+                        Sis. Victory Godwin
                       </div>
                     </footer>
                   </blockquote>
@@ -147,7 +160,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -163,17 +176,21 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I recently experienced God&apos;s goodness when I
+                          survived a bad car accident returning from Epe. The
+                          driver, a church member, fell asleep, and we crashed.
+                          Despite the car being severely damaged, we all came
+                          out with little to no injuries—a true miracle.
+                          I&apos;m deeply grateful for God&apos;s protection and
+                          reminded of His constant care, especially for us at
+                          Word Assembly.
                         </span>
                       </p>
                     </div>
 
                     <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                      <div className="font-semibold text-gray-800">
+                        Bro. Sunday Edozie
                       </div>
                     </footer>
                   </blockquote>
@@ -226,8 +243,8 @@ export default function Page() {
                   <div className="grow">
                     <p className="text-sm text-gray-600">Lagos State</p>
                     <address className="mt-1 text-black not-italic w-full">
-                      7, Hitech Road, Beside Pan-Atlantic University (LBS),
-                      Lekki-Epe Expressway, Lagos.
+                      First Emerald Estate, Yomi Balogun Crescent, Elesekan Bus
+                      stop, Opp Elesekan Market, ibeju-Lekki, Lagos.
                     </address>
                   </div>
                 </div>
@@ -261,10 +278,10 @@ export default function Page() {
                     <p className="text-sm text-gray-600">Email us</p>
                     <p>
                       <Link
-                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
+                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black text-sm lg:text-sm"
                         href="mailto:example@site.so"
                       >
-                        admin@wordassembly.org
+                        wordassemblylighthouse@gmail.com
                       </Link>
                     </p>
                   </div>
@@ -293,7 +310,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +234 805 888 1818
+                        +234 703 956 8246
                       </Link>
                     </p>
                   </div>

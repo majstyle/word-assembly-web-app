@@ -51,7 +51,7 @@ export default function Page() {
       {/* Section1 */}
 
       {/* Testimonials */}
-      <div className="w-full bg-white rounded-lg lg:-mb-16">
+      <div className="w-full bg-white rounded-lg  lg:-mb-24">
         <div
           data-hs-carousel='{
           "loadingClasses": "opacity-0",
@@ -67,7 +67,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-sm md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -83,17 +83,19 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          New Church Campus! In January 2024, we bought a 5-acre
+                          strategically located prime property at the
+                          intersection of 4 roads in the city of Austell,
+                          Georgia, USA. The property comes complete with church
+                          auditorium, media room, fellowship hall, offices,
+                          classrooms and more. To God be the glory!
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Pastor Philip Igbinijesu{" "}
                       </div>
                     </footer>
                   </blockquote>
@@ -107,7 +109,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-base md:text-2xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -123,17 +125,17 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          Our Son Can Now Talk! Praise the Lord who has made our
+                          6 year old son, whom we&apos;ve been believing to
+                          start talking to gain the power of speech and now is
+                          talking frequently. We&apos;re grateful to the Lord!
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Pastor Godwin Ogbogu
                       </div>
                     </footer>
                   </blockquote>
@@ -147,7 +149,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xl  md:text-3xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -163,17 +165,16 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          Baby Boy! The Lord blessed my husband and I with a
+                          baby boy and we&apos;re grateful for a stress-free
+                          conception and safe delivery.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Mrs Temilade Akinyele
                       </div>
                     </footer>
                   </blockquote>
@@ -196,6 +197,7 @@ export default function Page() {
               alt="Vision"
               width={600}
               height={600}
+              className="mb-6 lg:mb-0"
             ></Image>
           </div>
           {/* <!-- End Col --> */}
@@ -224,10 +226,9 @@ export default function Page() {
                   </svg>
 
                   <div className="grow">
-                    <p className="text-sm text-gray-600">Lagos State</p>
+                    <p className="text-sm text-gray-600">USA</p>
                     <address className="mt-1 text-black not-italic w-full">
-                      7, Hitech Road, Beside Pan-Atlantic University (LBS),
-                      Lekki-Epe Expressway, Lagos.
+                      4850 Sweetwater Valley Rd Austell GA 30127
                     </address>
                   </div>
                 </div>
@@ -264,7 +265,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        admin@wordassembly.org
+                        wordassemblydh@gmail.com
                       </Link>
                     </p>
                   </div>
@@ -293,7 +294,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +234 805 888 1818
+                        +1 770-212-9177
                       </Link>
                     </p>
                   </div>

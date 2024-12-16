@@ -67,7 +67,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -83,17 +83,24 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I want to thank God for growth and purpose discovery
+                          through Word Assembly&apos;s teachings. I grew up as a
+                          timid guy with low self-esteem, depression and
+                          suicidal thoughts. But when I joined Word Assembly
+                          Trinity House, Abeokuta, under the leadership of
+                          Pastor Olaoluwa Akinyoyenu, I discovered my purpose,
+                          and I started believing in myself. I was able to
+                          develop several skills and my leadership ability was
+                          honed and it became visible. I&apos;ve experienced
+                          tremendous transformation since I joined Word Assembly
+                          and I&apos;m sincerely giving all the glory to God.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-1 lg:mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Oluwatimileyin Solomon
                       </div>
                     </footer>
                   </blockquote>
@@ -107,7 +114,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-sm  md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -123,17 +130,20 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          In 2020, I joined Word Assembly through marriage, and
+                          it has been life-changing. My leadership skills have
+                          grown significantly, transforming me from unsure to
+                          confident. Just last month, God&apos;s mercy protected
+                          my daughter and me from a serious car accident. I am
+                          deeply grateful for His faithfulness and the spiritual
+                          covering of this assembly.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-1 lg:mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Akinyoyenu Yewande.
                       </div>
                     </footer>
                   </blockquote>
@@ -147,7 +157,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -163,17 +173,26 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          Three years ago, I made a decision that transformed my
+                          life—I joined Word Assembly. Here, I discovered my
+                          true purpose and gained a deeper understanding of who
+                          I am and what I&apos;m called to do. Through their
+                          leadership training, I developed the skills and
+                          confidence to lead effectively and inspire others.
+                          Word Assembly provided a nurturing environment for
+                          personal and spiritual growth, offering me a platform
+                          to express my ideas, explore new opportunities, and
+                          learn valuable lessons from my experiences. It has
+                          been a remarkable journey of empowerment, growth, and
+                          purpose, and I remain deeply grateful for this
+                          transformative experience.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-1 lg:mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Inene Israel
                       </div>
                     </footer>
                   </blockquote>
@@ -224,10 +243,10 @@ export default function Page() {
                   </svg>
 
                   <div className="grow">
-                    <p className="text-sm text-gray-600">Lagos State</p>
+                    <p className="text-sm text-gray-600">Ogun State</p>
                     <address className="mt-1 text-black not-italic w-full">
-                      7, Hitech Road, Beside Pan-Atlantic University (LBS),
-                      Lekki-Epe Expressway, Lagos.
+                      1, Sorobi street, obada-adigbe road, off railway, obada,
+                      abeokuta, Ogun State.
                     </address>
                   </div>
                 </div>
@@ -264,7 +283,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        admin@wordassembly.org
+                        watrinityhouse@gmail.com
                       </Link>
                     </p>
                   </div>
@@ -293,7 +312,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +234 805 888 1818
+                        +234 805 806 2199
                       </Link>
                     </p>
                   </div>

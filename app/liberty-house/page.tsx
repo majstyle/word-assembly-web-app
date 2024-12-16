@@ -67,7 +67,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -83,17 +83,24 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I joined Word Assembly in 2010, childless despite
+                          years of marriage. Doctors said I couldn&apos;t
+                          conceive due to small eggs, but through faith and
+                          God&apos;s intervention, we had our first son in 2011.
+                          After six years of waiting, God blessed us with a
+                          daughter in 2018. Three years later, despite another
+                          discouraging medical report about blocked tubes, God
+                          gave us a third child in 2021. From “impossible”
+                          diagnoses to being a joyful mother of three, I
+                          celebrate the God of Word Assembly, who proves His
+                          power beyond medical reports.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Sister Pat
                       </div>
                     </footer>
                   </blockquote>
@@ -107,7 +114,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -123,17 +130,26 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          In August 2024, my husband suddenly went unconscious,
+                          appearing lifeless. I prayed and called on the God of
+                          Word Assembly, involving my Resident Pastor and a
+                          church sister. We rushed him to a health center, but
+                          they rejected him, labeling it severe. On our way to
+                          the General Hospital, it felt like we had lost him,
+                          but we kept praying. At the hospital, God miraculously
+                          restored him, and tests showed he was okay. Within
+                          hours of returning home, he fully recovered with only
+                          paracetamol. Today, my husband&apos;s health is fully
+                          restored. I celebrate the God of Word Assembly for His
+                          divine intervention. To God be the glory!
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-1 lg:mt-3">
+                      <div className="font-semibold text-gray-800">
+                        {" "}
+                        Sister Gladys
                       </div>
                     </footer>
                   </blockquote>
@@ -147,7 +163,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -163,17 +179,25 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I want to testify to God&apos;s goodness regarding my
+                          3-year-old brother. He developed swelling in his legs
+                          that worsened despite treatment, eventually preventing
+                          him from walking and stopping him from going to
+                          school. On December 4th, 2024, during our Word Alive
+                          Communion Service, I prayed that the Communion would
+                          bring healing not just for me but for my brother as
+                          well. The next day, my mother called to share the
+                          amazing news—my brother was walking again, after
+                          months of being unable to. I thank the God of Word
+                          Assembly for healing my brother. To God alone be the
+                          glory!
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Sister Rosemary
                       </div>
                     </footer>
                   </blockquote>
@@ -224,10 +248,10 @@ export default function Page() {
                   </svg>
 
                   <div className="grow">
-                    <p className="text-sm text-gray-600">Lagos State</p>
+                    <p className="text-sm text-gray-600">Rivers State</p>
                     <address className="mt-1 text-black not-italic w-full">
-                      7, Hitech Road, Beside Pan-Atlantic University (LBS),
-                      Lekki-Epe Expressway, Lagos.
+                      9, Dickson Street off Sandfield Road Akpajo, Porthercourt,
+                      Rivers State.
                     </address>
                   </div>
                 </div>
@@ -261,10 +285,10 @@ export default function Page() {
                     <p className="text-sm text-gray-600">Email us</p>
                     <p>
                       <Link
-                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
+                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black text-sm"
                         href="mailto:example@site.so"
                       >
-                        admin@wordassembly.org
+                        wordassemblylibertyhouse@yahoo.com
                       </Link>
                     </p>
                   </div>
@@ -293,7 +317,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +234 805 888 1818
+                        +234 703 749 1292
                       </Link>
                     </p>
                   </div>

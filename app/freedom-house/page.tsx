@@ -51,7 +51,7 @@ export default function Page() {
       {/* Section1 */}
 
       {/* Testimonials */}
-      <div className="w-full bg-white rounded-lg lg:-mb-16">
+      <div className="w-full bg-white rounded-lg lg:-mb-8">
         <div
           data-hs-carousel='{
           "loadingClasses": "opacity-0",
@@ -67,7 +67,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs  md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -83,17 +83,24 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I want to give God all the glory for what He did for
+                          me during my delivery. After I gave birth, the doctors
+                          discovered that my placenta had broken into two, and
+                          they said I would need surgery immediately. It was a
+                          very serious situation. But as the Man of God prayed
+                          and declared that there would be no surgery, God
+                          intervened miraculously. Right there, the placenta
+                          dropped on its own, and the surgery was canceled! I am
+                          so grateful to God for His faithfulness and for
+                          turning what could have been a difficult situation
+                          into a testimony.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-2">
+                      <div className="font-semibold text-gray-800">
+                        Sister Anabel Jerome
                       </div>
                     </footer>
                   </blockquote>
@@ -107,7 +114,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -123,17 +130,23 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I want to testify to the goodness of God in my life.
+                          My name is sister Aghogho Jerry, and my husband and I
+                          have been married for three years. For all that time,
+                          we had no children, and after conducting several
+                          tests, the doctors told us there was no hope of having
+                          our biological children. But God had a different plan!
+                          By His mighty hand, I am now heavily pregnant,
+                          carrying the blessing we had been waiting for. I give
+                          all the glory to God for His faithfulness and for
+                          making the impossible possible in our lives.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-2">
+                      <div className="font-semibold text-gray-800">
+                        Sister Aghogho Jerry
                       </div>
                     </footer>
                   </blockquote>
@@ -147,7 +160,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -163,17 +176,24 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I want to give a testimony of God&apos;s amazing
+                          provision in my life. My name is Bro. Ifeanyi
+                          Innocent, and I was once going through serious
+                          financial struggles. Things were tough, and I
+                          didn&apos;t know where my help would come from. But
+                          when I joined this ministry and committed to following
+                          up on the training, everything began to change. Today,
+                          by God&apos;s grace, I am financially stable, and my
+                          situation has drastically improved compared to where I
+                          was coming from. I give all the glory to God for His
+                          faithfulness and for turning my story around.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-2">
+                      <div className="font-semibold text-gray-800">
+                        Bro. Ifeanyi Innocent
                       </div>
                     </footer>
                   </blockquote>
@@ -226,8 +246,8 @@ export default function Page() {
                   <div className="grow">
                     <p className="text-sm text-gray-600">Lagos State</p>
                     <address className="mt-1 text-black not-italic w-full">
-                      7, Hitech Road, Beside Pan-Atlantic University (LBS),
-                      Lekki-Epe Expressway, Lagos.
+                      1, Idi Oro Street, Off Baba Adisa Road, Off Lekki-Epe
+                      Express Way Ibeju-Lekki, Lagos.
                     </address>
                   </div>
                 </div>
@@ -239,7 +259,7 @@ export default function Page() {
               <h3 className="mb-5 font-semibold text-black">Our contacts</h3>
 
               {/* <!-- Grid --> */}
-              <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-2">
+              <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-1">
                 <div className="flex gap-4">
                   <svg
                     className="shrink-0 size-5 text-gray-500"
@@ -261,18 +281,18 @@ export default function Page() {
                     <p className="text-sm text-gray-600">Email us</p>
                     <p>
                       <Link
-                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
+                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black text-xs lg:text-sm"
                         href="mailto:example@site.so"
                       >
-                        admin@wordassembly.org
+                        wordassemblyfreedomhouse@gmail.com
                       </Link>
                     </p>
                   </div>
                 </div>
 
-                <div className="flex gap-4">
+                <div className="flex gap-4 lg:ml-14">
                   <svg
-                    className="shrink-0 size-5 text-gray-500"
+                    className="shrink-0 size-5 text-gray-500 lg:ml-6"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -293,7 +313,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +234 805 888 1818
+                        +234 706 507 6028
                       </Link>
                     </p>
                   </div>

@@ -67,7 +67,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-sm md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -83,17 +83,20 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I want to thank God for my life and the life of my
+                          children and wife, This year has been rough but God is
+                          faithful. My wife has been sick with a very deadly
+                          illness, cancer of the breast , I called my pastor and
+                          he prayed for her I confessed healing into her body, I
+                          told her she will not die ,but live to fulfill
+                          destiny. To the glory of God she is hale and healthy
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-4">
+                      <div className="font-semibold text-gray-800">
+                        Bro. Christopher{" "}
                       </div>
                     </footer>
                   </blockquote>
@@ -107,7 +110,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-base md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -123,17 +126,18 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I want to thank God for the safe delivery of my baby
+                          boy, even when the enemy showed his ugly head God took
+                          control. The caesarean operation was successful and
+                          God provided the money to pay the bills, I just want
+                          to give God all the glory
                         </span>
                       </p>
                     </div>
 
                     <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                      <div className="font-semibold text-gray-800">
+                        Mr. Oroale{" "}
                       </div>
                     </footer>
                   </blockquote>
@@ -147,7 +151,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-sm md:text-xl md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -163,17 +167,21 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I want to appreciate God,the journey was though ,but
+                          God said Ayomide I&apos;m there for you. My husband
+                          had a ruptured appendix,and the doctor said that if he
+                          had wasted more time he would have been dead, during
+                          all this I was 7months pregnant, my husband did the
+                          operation and glory be to God it was successful. I
+                          also want to thank God for the safe delivery of my
+                          twins. Hallelujah!!!!!
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-2">
+                      <div className="font-semibold text-gray-800">
+                        Sister Ayomide{" "}
                       </div>
                     </footer>
                   </blockquote>
@@ -226,8 +234,8 @@ export default function Page() {
                   <div className="grow">
                     <p className="text-sm text-gray-600">Lagos State</p>
                     <address className="mt-1 text-black not-italic w-full">
-                      7, Hitech Road, Beside Pan-Atlantic University (LBS),
-                      Lekki-Epe Expressway, Lagos.
+                      NIPCO Station, KM 37 Ibeju-Lekki Expressway, Opposite
+                      Eko-Akete Estate, Lagos.
                     </address>
                   </div>
                 </div>
@@ -261,10 +269,10 @@ export default function Page() {
                     <p className="text-sm text-gray-600">Email us</p>
                     <p>
                       <Link
-                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
+                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black text-sm"
                         href="mailto:example@site.so"
                       >
-                        admin@wordassembly.org
+                        wordassemblybeulahhouse@gmail.com
                       </Link>
                     </p>
                   </div>
@@ -272,7 +280,7 @@ export default function Page() {
 
                 <div className="flex gap-4">
                   <svg
-                    className="shrink-0 size-5 text-gray-500"
+                    className="shrink-0 size-5 text-gray-500 lg:ml-14"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -293,7 +301,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +234 805 888 1818
+                        +234 803 268 4124
                       </Link>
                     </p>
                   </div>

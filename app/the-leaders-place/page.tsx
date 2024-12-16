@@ -7,7 +7,7 @@ export default function Page() {
       {/* Hero*/}
       <div className="bg-hero-pattern bg-cover bg-center h-72 lg:w-full lg:h-96 text-center leading-3 bg-fixed">
         <h1 className="text-4xl text-center lg:text-center lg:flex lg:items-center lg:flex-col lg:pt-40 pt-36 font-bold lg:text-5xl lg:leading-tight dark:text-slate-100">
-          The Leaders Place{" "}
+          The Leaders' Place{" "}
         </h1>
 
         <div className="flex flex-col gap-y-5 items-center mt-6 lg:flex-row lg:justify-center lg:gap-x-2 lg:mt-10"></div>
@@ -51,7 +51,7 @@ export default function Page() {
       {/* Section1 */}
 
       {/* Testimonials */}
-      <div className="w-full bg-white rounded-lg lg:-mb-16">
+      <div className="w-full h-80 lg:h-96 bg-white rounded-lg  lg:-mb-10">
         <div
           data-hs-carousel='{
           "loadingClasses": "opacity-0",
@@ -67,7 +67,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -83,17 +83,26 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I have been a church girl almost all my life. I
+                          however got to a point where l knew there should be
+                          more to religion. About that time when there&apos;s a
+                          big vacuum in my spirit, a friend invited me to Word
+                          Assembly, in Ikeja. The atmosphere of genuine and
+                          godly love, the tangible presence of God&apos;s
+                          Spirit, the simple but profound presentation of
+                          God&apos;s Word, among others made me know that Word
+                          Assembly is the answer to my hunger and thirst for
+                          more of God. Over the years, l have been groomed and
+                          nurtured in matters of the Spirit and other areas of
+                          life. Word Assembly is a great family church.
+                          Wouldn&apos;t you rather join us?
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-1 ">
+                      <div className="font-semibold text-gray-800">
+                        Sister Pat Samuels
                       </div>
                     </footer>
                   </blockquote>
@@ -107,7 +116,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -123,17 +132,24 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          When I got married, I knew little about marriage
+                          beyond being ready. Joining Word Assembly transformed
+                          our journey through Just Couples, where we gained
+                          practical insights and learned from exemplary leaders.
+                          We&apos;re blessed with godly children, shaped by
+                          parenting classes, and equipped to handle life&apos;s
+                          challenges despite my husband&apos;s frequent
+                          absences. The church&apos;s mentorship and support
+                          have been invaluable. Today, by God&apos;s grace, I
+                          mentor and counsel others. I&apos;m proud and grateful
+                          to be part of Word Assembly.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Minister Omotayo Dike
                       </div>
                     </footer>
                   </blockquote>
@@ -147,7 +163,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -163,17 +179,25 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          For years, I wondered why many spiritual people
+                          underperform in life. Joining Word Assembly gave me
+                          the answer: many embrace Jesus&apos; power but neglect
+                          His principles. I learned that while praying and
+                          trusting God for miracles, I must also invest in
+                          knowledge, self-development, diligence, and
+                          excellence. Word Assembly taught me to take
+                          responsibility, value opportunities, and treat people
+                          well. Since joining, my life has consistently
+                          improved. I&apos;m deeply grateful to the Holy Spirit
+                          for leading me here. Looking for a well-rounded
+                          church? Word Assembly is the answer.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Pastor Oluwaseun Bamidele
                       </div>
                     </footer>
                   </blockquote>
@@ -226,8 +250,7 @@ export default function Page() {
                   <div className="grow">
                     <p className="text-sm text-gray-600">Lagos State</p>
                     <address className="mt-1 text-black not-italic w-full">
-                      7, Hitech Road, Beside Pan-Atlantic University (LBS),
-                      Lekki-Epe Expressway, Lagos.
+                      44, Iju Road, Opposite Pen City Court, Agege, Lagos.
                     </address>
                   </div>
                 </div>
@@ -264,7 +287,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        admin@wordassembly.org
+                        wordassemblyikeja@gmail.com
                       </Link>
                     </p>
                   </div>
@@ -293,7 +316,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +234 805 888 1818
+                        +234 811 975 6036
                       </Link>
                     </p>
                   </div>

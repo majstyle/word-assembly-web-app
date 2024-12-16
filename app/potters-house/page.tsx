@@ -67,7 +67,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -83,17 +83,24 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I appreciate God&apos;s faithfulness in my life,
+                          especially for the many blessings of 2024. I&apos;m
+                          grateful for His protection when I was saved from a
+                          physical attack on my way to work, as He sent timely
+                          help to keep me safe. I also thank Him for delivering
+                          me from a gas/fire explosion, granting me success in
+                          my professional exams, and promoting me at work.
+                          Additionally, I&apos;m thankful for being granted my
+                          desired course of study for my Master&apos;s program.
+                          God&apos;s goodness has truly been evident, and I give
+                          Him all the glory.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Mercy Edoh
                       </div>
                     </footer>
                   </blockquote>
@@ -107,7 +114,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -123,17 +130,24 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          During my wife&apos;s second pregnancy, she
+                          experienced sharp pain one Sunday morning and almost
+                          passed out. We rushed her to the hospital, and by
+                          God&apos;s grace, both she and the baby were safe. A
+                          week after delivery, our baby developed jaundice. With
+                          no sun and limited funds for treatment, I sought
+                          advice from Pastor Oluremi Opaleye, who suggested
+                          glucose and prayed with me. Our neighbor, a nurse,
+                          also helped with an injection. By God&apos;s grace,
+                          our baby recovered, and we were blessed with the
+                          knowledge to handle the situation.
                         </span>
                       </p>
                     </div>
 
-                    <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                    <footer className="mt-3">
+                      <div className="font-semibold text-gray-800">
+                        Minister Paul Nyor-ue
                       </div>
                     </footer>
                   </blockquote>
@@ -147,7 +161,7 @@ export default function Page() {
                   {/* Blockquote */}
                   <blockquote className="text-center lg:mx-auto lg:w-3/5">
                     <div className="mt-6 lg:mt-10">
-                      <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium text-gray-800">
+                      <p className="relative text-xs md:text-lg md:leading-normal font-medium text-gray-800">
                         <svg
                           className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-gray-200 sm:h-24 sm:w-24"
                           width="16"
@@ -163,17 +177,20 @@ export default function Page() {
                           />
                         </svg>
                         <span className="relative z-10 italic text-gray-800">
-                          &apos;I just wanted to say that I&apos;m very happy
-                          with my purchase of Preline so far. The documentation
-                          is outstanding - clear and detailed.&apos;
+                          I want to thank God for His faithfulness in my life
+                          and my family. 2024 has been an incredible year for
+                          us. Through His servant, Pastor Oluremi Opaleye, God
+                          has spoken words of comfort and peace into our lives.
+                          He has also shown His might in my business, proving
+                          that no economic challenges can dictate its direction.
+                          All praise and glory belong to God!
                         </span>
                       </p>
                     </div>
 
                     <footer className="mt-6">
-                      <div className="font-semibold text-gray-800">Philip</div>
-                      <div className="text-sm text-gray-500">
-                        Product Manager | Airbnb
+                      <div className="font-semibold text-gray-800">
+                        Minister James Otumala
                       </div>
                     </footer>
                   </blockquote>
@@ -226,8 +243,8 @@ export default function Page() {
                   <div className="grow">
                     <p className="text-sm text-gray-600">Lagos State</p>
                     <address className="mt-1 text-black not-italic w-full">
-                      7, Hitech Road, Beside Pan-Atlantic University (LBS),
-                      Lekki-Epe Expressway, Lagos.
+                      Main Hall, Handsworth Hotel Limited, 7-10 Young Arabamen
+                      Street, Farmville Estate, Lagos.
                     </address>
                   </div>
                 </div>
@@ -261,10 +278,10 @@ export default function Page() {
                     <p className="text-sm text-gray-600">Email us</p>
                     <p>
                       <Link
-                        className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
+                        className="relative text-xs lg:text-sm inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        admin@wordassembly.org
+                        wordassemblypottershouse@gmail.com
                       </Link>
                     </p>
                   </div>
@@ -293,7 +310,7 @@ export default function Page() {
                         className="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-yellow-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                         href="mailto:example@site.so"
                       >
-                        +234 805 888 1818
+                        +234 906 327 3927
                       </Link>
                     </p>
                   </div>

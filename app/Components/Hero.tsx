@@ -9,7 +9,7 @@ const words = [
   "Worship",
   "Praise",
   "Fellowship",
-  "Transformation",
+  "Get transformed",
   "Grow",
   "Serve",
 ];
