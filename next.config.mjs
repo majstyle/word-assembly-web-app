@@ -5,6 +5,8 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "images.unsplash.com",
+        hostname: "img.youtube.com",
+        pathname: "/vi/**",
       },
     ],
   },
