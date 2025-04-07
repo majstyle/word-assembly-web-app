@@ -46,7 +46,7 @@ export default function ImageCarouselPopup({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70">
-      <div className="relative mt-8 w-full max-w-3xl p-2 rounded-lg bg-yellow-200/10 shadow-xl">
+      <div className="relative lg:mt-8 w-full max-w-3xl p-2 rounded-lg bg-yellow-200/10 shadow-xl">
         <button
           onClick={handleClose}
           className="absolute right-4 top-4 rounded-full text-white hover:text-black p-1 hover:bg-gray-100"
@@ -55,13 +55,23 @@ export default function ImageCarouselPopup({
           <X className="h-6 w-6" />
         </button>
 
-        <div className="relative mt-6 aspect-video overflow-hidden rounded-md">
+        <div className="relative mt-6 aspect-video overflow-hidden rounded-md hidden lg:block">
           <Image
             src={images[currentIndex] || "/placeholder.svg"}
             alt={`Carousel image ${currentIndex + 1}`}
             width={600}
-            height={200}
-            className="object-cover object-center ml-[80px]"
+            height={600}
+            className="object-cover lg:ml-[80px]"
+            priority
+          />
+        </div>
+        <div className="relative mt-10 aspect-video overflow-hidden rounded-md block lg:hidden">
+          <Image
+            src={images[currentIndex] || "/placeholder.svg"}
+            alt={`Carousel image ${currentIndex + 1}`}
+            width={310}
+            height={310}
+            className="object-cover ml-11"
             priority
           />
         </div>
@@ -69,7 +79,7 @@ export default function ImageCarouselPopup({
         <div className=" flex items-center justify-between">
           <button
             onClick={handlePrevious}
-            className="rounded-full px-20 hover:bg-transperent text-white"
+            className="rounded-full px-16 lg:px-20 hover:bg-transperent text-white"
             aria-label="Previous image"
           >
             <ChevronLeft className="h-6 w-6" />
@@ -81,7 +91,7 @@ export default function ImageCarouselPopup({
 
           <button
             onClick={handleNext}
-            className="rounded-full px-20 hover:bg-transperent text-white"
+            className="rounded-full px-16 lg:px-20 hover:bg-transperent text-white"
             aria-label="Next image"
           >
             <ChevronRight className="h-6 w-6" />
