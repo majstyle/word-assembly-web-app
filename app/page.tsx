@@ -1,3 +1,8 @@
+"use client";
+
+import { useState } from "react";
+import ImageCarouselPopup from "./Components/image-carousel-popup";
+
 import Hero from "./Components/Hero";
 import Card from "./Components/Card";
 import Section1 from "./Components/Section1";
@@ -7,6 +12,10 @@ import Testi from "./Components/Testi";
 import Iframe from "./Components/Iframe";
 
 export default function Home() {
+  const [showPopup, setShowPopup] = useState(true);
+
+  // Your images - replace with your actual image paths
+  const carouselImages = ["/assets/easter.jpg", "/assets/easter1.jpg"];
   return (
     <>
       <Hero />
@@ -16,6 +25,13 @@ export default function Home() {
       <Section2 />
       <Pastor />
       <Testi />
+
+      {showPopup && (
+        <ImageCarouselPopup
+          images={carouselImages}
+          onClose={() => setShowPopup(false)}
+        />
+      )}
     </>
   );
 }
