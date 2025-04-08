@@ -11,7 +11,7 @@ import {
 
 export default function Section2() {
   return (
-    <section className="py-16 lg:py-24 overflow-hidden bg-gradient-to-b from-white to-white relative">
+    <section className="py-16 lg:py-24 overflow-hidden  bg-gradient-to-b from-amber-400/10 to-red-400/30 relative">
       {/* Background decorative elements */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-yellow-100 rounded-full mix-blend-multiply opacity-70 blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-100 rounded-full mix-blend-multiply opacity-70 blur-3xl"></div>
@@ -47,13 +47,13 @@ export default function Section2() {
               {/* Family Management */}
               <div className="group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
-                <div className="relative aspect-[4/3] overflow-hidden">
+                <div className="relative lg:aspect-[4/3] overflow-hidden">
                   <Image
                     src="/assets/family1.png"
                     alt="Family Management"
                     width={200}
                     height={200}
-                    className="object-cover transition-transform duration-700 group-hover:scale-110 lg:ml-8"
+                    className="object-contain lg:object-cover transition-transform duration-700 group-hover:scale-110 lg:ml-8"
                   />
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-white z-20 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
@@ -76,7 +76,7 @@ export default function Section2() {
                     src="/assets/Business.png"
                     alt="Business"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="object-cover transition-transform duration-700 group-hover:scale-110 mt-6 lg:mt-0"
                   />
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-white z-20 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
@@ -94,7 +94,7 @@ export default function Section2() {
               {/* Theology */}
               <div className="group relative overflow-hidden rounded-xl bg-white shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
-                <div className="relative aspect-[4/3] overflow-hidden">
+                <div className="relative lg:aspect-[4/3] overflow-hidden">
                   <Image
                     src="/assets/theology.png"
                     alt="Theology"
@@ -123,7 +123,7 @@ export default function Section2() {
                     src="/assets/leadership.png"
                     alt="Leadership"
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="object-cover transition-transform duration-700 group-hover:scale-110 mt-6 lg:mt-0"
                   />
                 </div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-white z-20 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
@@ -226,12 +226,12 @@ export default function Section2() {
               />
             </div>
             <div>
-              <p className="italic text-slate-700 mb-4">
-                &quot;he courses at Proof Producers Leadership Institute have
+              <p className="italic text-slate-700 mb-4 lg:text-left text-center">
+                &quot;The courses at Proof Producers Leadership Institute have
                 transformed my understanding of scripture and equipped me to be
                 a better leader in my family and community.&quot;
               </p>
-              <p className="font-semibold text-slate-800">
+              <p className="font-semibold text-slate-800 lg:text-left text-center">
                 Dn. Tobi Adelerin, Program Graduate
               </p>
             </div>

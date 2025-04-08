@@ -16,7 +16,7 @@ export default function Iframe() {
   };
 
   return (
-    <section className="relative py-16 md:py-24 overflow-hidden bg-gradient-to-b from-white to-gray-50">
+    <section className="relative py-16 md:py-24 overflow-hidden bg-gradient-to-b from-white to-white">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-amber-50 to-transparent opacity-70"></div>
       <div className="absolute -top-10 right-10 w-40 h-40 rounded-full bg-amber-100 opacity-20 blur-3xl"></div>
@@ -69,16 +69,16 @@ export default function Iframe() {
           {/* Content Section */}
           <div className="space-y-6 md:space-y-8">
             <div>
-              <h2 className="text-amber-600 font-semibold mb-2 tracking-wide">
+              <h2 className="text-amber-600 font-semibold mb-2 tracking-wide text-center lg:text-left">
                 JOIN US IN WORSHIP
               </h2>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
-                Sunday Service
+              <h1 className="text-2xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight text-center lg:text-left">
+                Sunday & Wednesday Services
               </h1>
-              <div className="h-1 w-20 bg-amber-500 mt-4 rounded-full"></div>
+              <div className="h-1 w-20 bg-amber-500 mt-4 rounded-full mx-auto md:ml-0"></div>
             </div>
 
-            <p className="text-gray-600 text-lg md:text-xl leading-relaxed">
+            <p className="text-gray-600 text-lg md:text-xl leading-relaxed text-center lg:text-left">
               Experience the power of worship and the Word every Sunday. Our
               services are designed to inspire, uplift, and transform lives
               through praise and biblical teaching.

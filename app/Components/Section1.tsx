@@ -3,7 +3,7 @@ import { QuoteIcon } from "lucide-react";
 
 export default function Section1() {
   return (
-    <section className="py-12 lg:py-20 overflow-hidden bg-gradient-to-b from-white to-slate-50">
+    <section className="py-12 lg:py-20 overflow-hidden bg-gradient-to-b from-white to-white">
       <div className="max-w-[70rem] mx-auto px-4 sm:px-6 lg:px-8">
         {/* Decorative elements */}
         <div className="absolute left-0 top-1/2 transform -translate-y-1/2 opacity-5 hidden lg:block">

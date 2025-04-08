@@ -14,9 +14,9 @@ export default function Card() {
   }, []);
 
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className="relative py-10 lg:py-20 overflow-hidden ">
       {/* Background Elements */}
-      <div className="absolute inset-0 bg-gradient-to-b from-white to-yellow/70 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-amber-400/10 to-red-400/30 z-0"></div>
       <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-white to-transparent z-10"></div>
 
       {/* Decorative Elements */}
