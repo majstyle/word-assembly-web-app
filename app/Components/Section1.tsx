@@ -30,10 +30,10 @@ export default function Section1() {
                 <QuoteIcon size={24} />
               </div>
               <p className="italic text-slate-700 leading-relaxed">
-                "And let us consider one another in order to stir up love and
-                good works, not forsaking the assembling of ourselves together,
-                as is the manner of some, but exhorting one another, and so much
-                the more, as you see the day approaching"
+                &quot;And let us consider one another in order to stir up love
+                and good works, not forsaking the assembling of ourselves
+                together, as is the manner of some, but exhorting one another,
+                and so much the more, as you see the day approaching&quot;
               </p>
               <p className="text-right mt-2 text-sm font-medium text-slate-600">
                 — Hebrews 10:24-25 NKJV

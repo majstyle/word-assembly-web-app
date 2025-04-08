@@ -227,9 +227,9 @@ export default function Section2() {
             </div>
             <div>
               <p className="italic text-slate-700 mb-4">
-                "The courses at Proof Producers Leadership Institute have
+                &quot;he courses at Proof Producers Leadership Institute have
                 transformed my understanding of scripture and equipped me to be
-                a better leader in my family and community."
+                a better leader in my family and community.&quot;
               </p>
               <p className="font-semibold text-slate-800">
                 Dn. Tobi Adelerin, Program Graduate
