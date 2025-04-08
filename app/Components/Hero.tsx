@@ -195,7 +195,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative w-full h-[90vh] lg:h-[100vh] mt-16 bg-zinc-900 text-white overflow-hidden">
+    <section className="relative w-full h-[100vh] md:h-[100vh] mt-16 bg-zinc-900 text-white overflow-hidden">
       {/* Video background with optimized loading */}
       <div
         className={`absolute inset-0 transition-opacity duration-1000 ${
@@ -295,7 +295,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <Link href="/about" className="flex justify-center">
-                <button className="lg:w-full lg:mb-4 sm:w-auto px-4 py-3 lg:px-6 lg:py-2 bg-gradient-to-r from-amber-500 to-red-500 text-white font-medium rounded-full hover:from-red-500 hover:to-amber-500 transition-all duration-300 flex items-center justify-center">
+                <button className="lg:w-full mb-6 lg:mb-4 sm:w-auto px-4 py-3 lg:px-6 lg:py-2 bg-gradient-to-r from-amber-500 to-red-500 text-white font-medium rounded-full hover:from-red-500 hover:to-amber-500 transition-all duration-300 flex items-center justify-center ">
                   Discover more
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </button>
