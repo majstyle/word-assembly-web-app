@@ -283,9 +283,8 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg text-zinc-300 max-w-2xl mx-auto mb-8"
             >
-              We raise leader who are spiritually and socially relevant. Join us
-              as we explore faith, build community, and make a difference
-              together.
+              We raise leaders who are spiritually and socially relevant. Join
+              us as we explore faith, build community, and make a difference.
             </motion.p>
 
             <motion.div

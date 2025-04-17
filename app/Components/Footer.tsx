@@ -59,15 +59,15 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative bg-gradient-to-b from-gray-900 to-gray-950 w-full overflow-hidden">
+    <footer className="relative  bg-gradient-to-b from-gray-900 to-gray-950 w-full overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500/0 via-yellow-500 to-yellow-500/0"></div>
+      <div className="absolute  top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-500/0 via-yellow-500 to-yellow-500/0"></div>
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute -top-[350px] -left-[100px] w-[600px] h-[600px] rounded-full bg-yellow-500/5 blur-3xl"></div>
         <div className="absolute -bottom-[350px] -right-[100px] w-[600px] h-[600px] rounded-full bg-yellow-500/5 blur-3xl"></div>
       </div>
 
-      <div className="relative w-full max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <div className="relative w-full max-w-6xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -80,7 +80,7 @@ export default function Footer() {
             <motion.div
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              className="bg-white backdrop-blur-md p-4 rounded-xl inline-flex items-center justify-center"
+              className="bg-white backdrop-blur-md p-2 rounded-md inline-flex items-center justify-center"
             >
               <Link href="/" aria-label="Word Assembly">
                 <Image
@@ -247,8 +247,13 @@ export default function Footer() {
             </motion.form>
 
             {/* Social media links */}
-            <motion.div variants={itemVariants} className="mt-8">
-              <h5 className="text-white text-sm font-medium mb-4">Follow Us</h5>
+            <motion.div
+              variants={itemVariants}
+              className="mt-8 lg:mt-14 lg:ml-44"
+            >
+              <h5 className="text-white text-sm font-medium lg:ml-16 mb-4">
+                Follow Us
+              </h5>
               <div className="flex space-x-3">
                 {[
                   {

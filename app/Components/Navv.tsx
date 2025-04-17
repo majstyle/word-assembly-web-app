@@ -184,43 +184,7 @@ export default function Navv() {
                                       <h5 className="font-extrabold ml-2">
                                         Churches
                                       </h5>
-                                      {/* Link */}
-                                      <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400 focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/the-leaders-place"
-                                      >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            The Leaders Place
-                                          </p>
-                                        </div>
-                                      </Link>
-
-                                      <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/dominion-house"
-                                      >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Dominion House
-                                          </p>
-                                        </div>
-                                      </Link>
-                                      {/* End Link */}
-
-                                      <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/the-refuge"
-                                      >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            The Refuge
-                                          </p>
-                                        </div>
-                                      </Link>
-
-                                      {/* Link */}
-                                      <Link
+                                      {/* <Link
                                         className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
                                         href="freedom-house"
                                       >
@@ -229,45 +193,51 @@ export default function Navv() {
                                             Freedom House
                                           </p>
                                         </div>
-                                      </Link>
-                                      {/* End Link */}
-
-                                      {/* Link */}
+                                      </Link> */}
                                       <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/light-house"
+                                        className="p-2 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/TheLeadersPlace"
                                       >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Light House
-                                          </p>
-                                        </div>
-                                      </Link>
-                                      {/* End Link */}
-
-                                      {/* Link */}
-                                      <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/trinity-house"
-                                      >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Trinity House
-                                          </p>
-                                        </div>
+                                        The Leaders' place
                                       </Link>
 
                                       <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/mercy-house"
+                                        className="p-2 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/DominionHouse"
                                       >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Achievers House
-                                          </p>
-                                        </div>
+                                        Dominion House
                                       </Link>
-                                      {/* End Link */}
+                                      <Link
+                                        className="p-2 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/TheRefuge"
+                                      >
+                                        The Refuge
+                                      </Link>
+
+                                      <Link
+                                        className="p-2 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/FreedomHouse"
+                                      >
+                                        Freedom House
+                                      </Link>
+                                      <Link
+                                        className="p-2 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/LightHouse"
+                                      >
+                                        Light House
+                                      </Link>
+                                      <Link
+                                        className="p-2 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/TrinityHouse"
+                                      >
+                                        Trinity House
+                                      </Link>
+                                      <Link
+                                        className="p-2 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/AchieversHouse"
+                                      >
+                                        Achievers House
+                                      </Link>
                                     </div>
                                   </div>
                                 </div>
@@ -276,75 +246,41 @@ export default function Navv() {
                                 <div>
                                   <div className="flex flex-col">
                                     <div className="space-y-0.5">
-                                      {/* Link */}
                                       <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/potters-house"
+                                        className="p-2 lg:mt-7 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/PottersHouse"
                                       >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800 mt-7">
-                                            Potters House
-                                          </p>
-                                        </div>
+                                        Potters House
                                       </Link>
-                                      {/* End Link */}
-
-                                      {/* Link */}
                                       <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/wisdom-house"
+                                        className="p-2 lg:mt-7 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/WisdomHouse"
                                       >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Wisdom House
-                                          </p>
-                                        </div>
+                                        Wisdom House
                                       </Link>
-                                      {/* End Link */}
-
-                                      {/* Link */}
                                       <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/beulah-house"
+                                        className="p-2 lg:mt-7 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/BeulahHouse"
                                       >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Beulah House
-                                          </p>
-                                        </div>
+                                        Beulah House
                                       </Link>
-
                                       <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/grace-house"
+                                        className="p-2 lg:mt-7 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/GraceHouse"
                                       >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Grace House
-                                          </p>
-                                        </div>
+                                        Grace House
                                       </Link>
-
                                       <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/liberty-house"
+                                        className="p-2 lg:mt-7 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/LibertyHouse"
                                       >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Liberty House
-                                          </p>
-                                        </div>
+                                        Liberty House
                                       </Link>
-
                                       <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="/peace-house"
+                                        className="p-2 lg:mt-7 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
+                                        href="/locations/PeaceHouse"
                                       >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Peace House
-                                          </p>
-                                        </div>
+                                        Peace House
                                       </Link>
 
                                       {/* End Link */}
@@ -357,6 +293,7 @@ export default function Navv() {
                             </div>
                             {/* End Col */}
 
+                            {/* Campus fellowship Starts here */}
                             <div className="md:col-span-2">
                               <div className="p-2 md:p-4 md:h-full md:flex-1 flex flex-col md:bg-yellow-100   md:rounded-br-lg">
                                 <h3 className="mb-2 ml-2 font-semibold text-sm text-gray-800">
