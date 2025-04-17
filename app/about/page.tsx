@@ -334,47 +334,9 @@ const LeadershipCarousel = ({
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Auto-play functionality
-  useEffect(() => {
-    if (isHovering) return;
-
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, [currentIndex, isHovering]);
-
-  // Navigation functions
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === leaders.length - cardsToShow ? 0 : prevIndex + 1
-    );
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? leaders.length - cardsToShow : prevIndex - 1
-    );
-  };
-
   const goToSlide = (index: number) => {
     setCurrentIndex(index);
   };
-
-  // Keyboard navigation
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "ArrowLeft") {
-        prevSlide();
-      } else if (e.key === "ArrowRight") {
-        nextSlide();
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
 
   return (
     <motion.div
@@ -422,7 +384,6 @@ const LeadershipCarousel = ({
           className="w-12 h-12 rounded-full bg-white shadow-lg flex items-center justify-center text-gray-700 hover:text-amber-500 transition-colors border border-gray-100"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          onClick={prevSlide}
           aria-label="Previous slide"
         >
           <ChevronLeft className="h-6 w-6" />
@@ -450,7 +411,7 @@ const LeadershipCarousel = ({
           className="w-12 h-12 rounded-full bg-white shadow-lg flex items-center justify-center text-gray-700 hover:text-amber-500 transition-colors border border-gray-100"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          onClick={nextSlide}
+          // onClick={nextSlide}
           aria-label="Next slide"
         >
           <ChevronRight className="h-6 w-6" />
@@ -511,15 +472,6 @@ export default function About() {
   // Spring animations for smoother effects
   const springHeroY = useSpring(heroY, { stiffness: 100, damping: 30 });
   const springTitleY = useSpring(titleY, { stiffness: 100, damping: 30 });
-
-  // Testimonial auto-rotation
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveTestimonial((prev) => (prev + 1) % testimonials.length);
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, []);
 
   // Accordion data
   const accordionData = [
@@ -1402,8 +1354,9 @@ export default function About() {
                   Join Us This Sunday
                 </h2>
                 <p className="text-white/90 max-w-lg leading-relaxed">
-                  Experience the warmth of our community and the power of God's
-                  Word. We'd love to welcome you to our services.
+                  Experience the warmth of our community and the power of
+                  God&apos;s Word. We&apos;d love to welcome you to our
+                  services.
                 </p>
               </motion.div>
 

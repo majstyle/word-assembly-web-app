@@ -69,21 +69,20 @@ export default function Hero() {
   }, []);
 
   useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.addEventListener("loadeddata", () => {
+    const videoElement = videoRef.current;
+
+    if (videoElement) {
+      const handleLoadedData: () => void = () => {
         setIsVideoLoaded(true);
-      });
+      };
 
-      videoRef.current.load();
+      videoElement.addEventListener("loadeddata", handleLoadedData);
+      videoElement.load();
+
+      return () => {
+        videoElement.removeEventListener("loadeddata", handleLoadedData);
+      };
     }
-
-    return () => {
-      if (videoRef.current) {
-        videoRef.current.removeEventListener("loadeddata", () => {
-          setIsVideoLoaded(true);
-        });
-      }
-    };
   }, []);
 
   // Card variants

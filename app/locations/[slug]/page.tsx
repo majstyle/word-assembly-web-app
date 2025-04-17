@@ -14,7 +14,7 @@ import {
   ChevronLeft,
 } from "lucide-react";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 // Add these styles at the top of the file, after the imports
 
@@ -50,30 +50,36 @@ export default function LocationPage({ params }: Params) {
     setIsClient(true);
   }, []);
 
-  if (!location) return notFound();
-
   // Add the style element
   useEffect(() => {
-    if (isClient) {
-      const styleElement = document.createElement("style");
-      styleElement.innerHTML = floatKeyframes;
-      document.head.appendChild(styleElement);
+    if (!isClient) return;
 
-      return () => {
-        document.head.removeChild(styleElement);
-      };
-    }
+    const styleElement = document.createElement("style");
+    styleElement.innerHTML = floatKeyframes;
+    document.head.appendChild(styleElement);
+
+    return () => {
+      document.head.removeChild(styleElement);
+    };
   }, [isClient]);
 
   // Auto-rotate testimonials
+  const testimoniesLength = useMemo(
+    () => location.testimonies.length,
+    [location.testimonies]
+  );
+
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveTestimonial((prev) =>
-        prev === location.testimonies.length - 1 ? 0 : prev + 1
+        prev === testimoniesLength - 1 ? 0 : prev + 1
       );
     }, 5000);
     return () => clearInterval(interval);
-  }, [location.testimonies.length]);
+  }, [testimoniesLength]);
+
+  // Now safe to check for notFound
+  if (!location) return notFound();
 
   const nextTestimonial = () => {
     setActiveTestimonial((prev) =>
@@ -194,10 +200,10 @@ export default function LocationPage({ params }: Params) {
               </h2>
               <div className="prose prose-lg text-gray-700 max-w-none">
                 <p className="text-lg leading-relaxed">
-                  "and let us consider one another in order to stir up love and
-                  good works, not forsaking the assembling of ourselves
+                  &quot;and let us consider one another in order to stir up love
+                  and good works, not forsaking the assembling of ourselves
                   together, as is the manner of some, but exhorting one another,
-                  and so much the more, as you see the day approaching"{" "}
+                  and so much the more, as you see the day approaching&quot;{" "}
                   <span className="font-semibold">— Hebrews 10:24-25 NKJV</span>
                 </p>
               </div>
@@ -307,7 +313,7 @@ export default function LocationPage({ params }: Params) {
                 >
                   <div className="bg-white rounded-3xl p-10 w-full max-w-5xl mx-auto border border-amber-100 backdrop-filter backdrop-blur-sm bg-white/90">
                     <div className="absolute top-6 left-6 text-amber-300/20 text-9xl font-serif">
-                      "
+                      &quot;
                     </div>
                     <div className="mb-8 relative z-10">
                       <svg
@@ -318,7 +324,7 @@ export default function LocationPage({ params }: Params) {
                         <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                       </svg>
                       <p className="text-gray-700 italic leading-relaxed text-xl relative z-10">
-                        "{testimony.quote}"
+                        &quot;{testimony.quote}&quot;
                       </p>
                     </div>
                     <div className="pt-6 border-t border-gray-100">
@@ -362,7 +368,7 @@ export default function LocationPage({ params }: Params) {
             Join us this Sunday
           </h3>
           <p className="text-xl lg:-mt-6 text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            We'd love to welcome you to our community. Come experience the
+            We&apos;d love to welcome you to our community. Come experience the
             warmth, love, and transformation that awaits you.
           </p>
         </div>
@@ -394,7 +400,7 @@ export default function LocationPage({ params }: Params) {
                 <div>
                   <p className="text-lg font-semibold text-white">Email Us</p>
                   <p className="text-sm text-white/70">
-                    We'll respond within 24 hours
+                    We&apos;ll respond within 24 hours
                   </p>
                 </div>
               </div>

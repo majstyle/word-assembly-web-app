@@ -331,7 +331,7 @@ export default function Contact() {
               variants={itemVariants}
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6"
             >
-              We'd Love to Hear{" "}
+              We&apos;d Love to Hear{" "}
               <span className="relative">
                 From You
                 <span className="absolute bottom-1 left-0 w-full h-3 bg-yellow-200 opacity-40 -z-10"></span>
@@ -446,7 +446,7 @@ export default function Contact() {
                   Send us a message
                 </h2>
                 <p className="text-yellow-50 mt-1 relative z-10">
-                  We'll get back to you as soon as possible
+                  We&apos;ll get back to you as soon as possible
                 </p>
 
                 {/* Form steps indicator */}

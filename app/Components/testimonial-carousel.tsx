@@ -70,7 +70,7 @@ export default function TestimonialCarousel({
             </div>
             <div className="text-center">
               <p className="text-lg md:text-xl text-gray-700 italic mb-8 relative z-10 pt-6">
-                "{testimonies[currentIndex].quote}"
+                &quot;{testimonies[currentIndex].quote}&quot;
               </p>
               <div className="flex flex-col items-center">
                 <div className="w-12 h-1 bg-yellow-500 mb-4"></div>

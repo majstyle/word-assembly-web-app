@@ -184,21 +184,11 @@ export default function Navv() {
                                       <h5 className="font-extrabold ml-2">
                                         Churches
                                       </h5>
-                                      {/* <Link
-                                        className="p-2 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
-                                        href="freedom-house"
-                                      >
-                                        <div className="grow">
-                                          <p className="text-sm text-gray-800">
-                                            Freedom House
-                                          </p>
-                                        </div>
-                                      </Link> */}
                                       <Link
                                         className="p-2 text-sm text-gray-800 flex gap-x-3 hover:bg-yellow-400  focus:outline-none focus:bg-gray-100 rounded-lg"
                                         href="/locations/TheLeadersPlace"
                                       >
-                                        The Leaders' place
+                                        The Leaders&apos; place
                                       </Link>
 
                                       <Link
