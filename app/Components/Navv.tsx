@@ -414,18 +414,14 @@ export default function Navv() {
                         aria-labelledby="hs-header-base-dropdown"
                       >
                         <div className="py-1 md:px-1 space-y-0.5">
-                          <Link
+                          <a
+                            className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
                             href="https://proof-producers-bible-college.vercel.app/"
-                            passHref
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
-                            <a
-                              className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              Proof Producers Bible College
-                            </a>
-                          </Link>
+                            Proof Producers Bible College
+                          </a>
 
                           <Link
                             className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
