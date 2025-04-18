@@ -415,10 +415,16 @@ export default function Navv() {
                       >
                         <div className="py-1 md:px-1 space-y-0.5">
                           <Link
-                            className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
                             href="https://proof-producers-bible-college.vercel.app/"
+                            passHref
                           >
-                            Proof Producers Bible College
+                            <a
+                              className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Proof Producers Bible College
+                            </a>
                           </Link>
 
                           <Link
