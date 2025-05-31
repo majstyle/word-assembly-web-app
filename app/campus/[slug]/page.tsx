@@ -39,9 +39,7 @@ export default function CampusPage({ params }: { params: { slug: string } }) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
 
-  // Handle not found case
-  if (!campus) return notFound();
-  const testimoniesLength = campus.testimonies.length;
+  const testimoniesLength = campus?.testimonies.length || 0;
 
   // Setup effects after mount
   useEffect(() => {
@@ -78,6 +76,9 @@ export default function CampusPage({ params }: { params: { slug: string } }) {
       }
     };
   }, [testimoniesLength, isMounted]);
+
+  // Handle not found case after all hooks
+  if (!campus) return notFound();
 
   const nextTestimonial = () => {
     setActiveTestimonial((prev) =>
@@ -199,7 +200,7 @@ export default function CampusPage({ params }: { params: { slug: string } }) {
               <div className="text-gray-700">
                 <p className="text-lg leading-relaxed">
                   Our campus fellowship is more than just a weekly
-                  gathering—it's a family where you can find authentic
+                  gathering—it&apos;s a family where you can find authentic
                   relationships, spiritual growth, and a sense of purpose.
                 </p>
                 <p className="text-lg leading-relaxed mt-4">
@@ -245,7 +246,7 @@ export default function CampusPage({ params }: { params: { slug: string } }) {
                 Bible Study
               </h4>
               <p className="text-gray-600 flex-grow">
-                Dive deep into God's Word through interactive and engaging
+                Dive deep into God&apos;s Word through interactive and engaging
                 studies.
               </p>
             </div>
@@ -419,8 +420,9 @@ export default function CampusPage({ params }: { params: { slug: string } }) {
                   Your Journey Starts Here
                 </h3>
                 <p className="text-lg text-gray-700 mb-8">
-                  We'd love to welcome you to our community. Come experience the
-                  warmth, love, and transformation that awaits you.
+                  We&apos;d love to welcome you to our community. Come
+                  experience the warmth, love, and transformation that awaits
+                  you.
                 </p>
 
                 <div className="space-y-6">
@@ -496,11 +498,11 @@ export default function CampusPage({ params }: { params: { slug: string } }) {
                 Get In Touch
               </div>
               <h3 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-8">
-                We'd Love to Hear From You
+                We&apos;d Love to Hear From You
               </h3>
               <p className="text-lg text-gray-700 mb-12 max-w-xl">
                 Whether you have questions about our fellowship or want to learn
-                more about getting involved, we're here to help.
+                more about getting involved, we&apos;re here to help.
               </p>
 
               <div className="space-y-8">
@@ -596,7 +598,8 @@ export default function CampusPage({ params }: { params: { slug: string } }) {
                       Message Sent!
                     </h5>
                     <p className="text-gray-600">
-                      Thank you for reaching out. We'll get back to you soon.
+                      Thank you for reaching out. We&apos;ll get back to you
+                      soon.
                     </p>
                   </div>
                 ) : (
