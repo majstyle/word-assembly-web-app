@@ -298,7 +298,7 @@ export default function Navv() {
                                   <div className="grow">
                                     <Link
                                       className="p-2 flex gap-x-3 hover:bg-yellow-400 focus:outline-none focus:bg-yellow-400 rounded-lg"
-                                      href="#"
+                                      href={`/campus/harvarde`} // Fixed - removed the template literal syntax
                                     >
                                       <div className="grow">
                                         <p className="text-sm text-gray-800">
@@ -308,19 +308,8 @@ export default function Navv() {
                                     </Link>
 
                                     <Link
-                                      className="p-2 flex gap-x-3 hover:bg-yellow-400 focus:outline-none focus:bg-yellow-400  rounded-lg"
-                                      href="#"
-                                    >
-                                      <div className="grow">
-                                        <p className="text-sm text-gray-800">
-                                          Delsu chapter
-                                        </p>
-                                      </div>
-                                    </Link>
-
-                                    <Link
-                                      className="p-2 flex gap-x-3 hover:bg-yellow-400 focus:outline-none focus:bg-yellow-400  rounded-lg"
-                                      href="#"
+                                      className="p-2 flex gap-x-3 hover:bg-yellow-400 focus:outline-none focus:bg-yellow-400 rounded-lg"
+                                      href={`/campus/fuoye`} // Fixed - removed the template literal syntax
                                     >
                                       <div className="grow">
                                         <p className="text-sm text-gray-800">
@@ -336,17 +325,6 @@ export default function Navv() {
                                       <div className="grow">
                                         <p className="text-sm text-gray-800">
                                           Tasued chapter
-                                        </p>
-                                      </div>
-                                    </Link>
-
-                                    <Link
-                                      className="p-2 flex gap-x-3 hover:bg-yellow-400 focus:outline-none focus:bg-yellow-400  rounded-lg"
-                                      href="#"
-                                    >
-                                      <div className="grow">
-                                        <p className="text-sm text-gray-800">
-                                          Rivers State University
                                         </p>
                                       </div>
                                     </Link>
@@ -425,26 +403,48 @@ export default function Navv() {
 
                           <Link
                             className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
-                            href="https://proofproducersleadershipinstitute.org/ffa/"
+                            href="https://family-first-academy.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Family First Academy
                           </Link>
 
                           <Link
                             className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
-                            href="https://proofproducersleadershipinstitute.org/ldc/"
+                            href="https://leadership-development-college.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Leadership Development College
                           </Link>
 
                           <Link
                             className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
-                            href="https://proofproducersleadershipinstitute.org/sba/"
+                            href="https://surepace-business-academy.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                           >
                             Surepace Business Academy
                           </Link>
-
                           <Link
+                            className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
+                            href="https://word-assembly-training-school.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Word Assembly Training School
+                          </Link>
+                          <Link
+                            className="p-2 md:px-3 flex items-center text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:focus:text-neutral-300"
+                            href="https://exceptional-leadership-institute.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Exceptional Leadership Institute
+                          </Link>
+
+                          {/* <Link
                             className="p-2 flex items-center text-sm text-gray-800 hover:bg-yellow-400 rounded-lg focus:outline-none focus:bg-gray-100"
                             href="https://www.leadershipdevotional.org/"
                           >
@@ -466,7 +466,7 @@ export default function Navv() {
                               <rect width="20" height="14" x="2" y="6" rx="2" />
                             </svg>
                             Leadership Devotional
-                          </Link>
+                          </Link> */}
                         </div>
                       </div>
                     </div>
@@ -525,15 +525,6 @@ export default function Navv() {
                 <div className="my-2 md:my-0 md:mx-2">
                   <div className="w-full h-px md:w-px md:h-4 bg-yellow-400 lg:bg-yellow-400"></div>
                 </div>
-
-                {/* Button Group */}
-                {/* <Link
-                  className="py-2 px-6 flex items-center text-sm text-gray-800 font-semibold hover:bg-yellow-400 rounded-lg"
-                  href="#"
-                >
-                  GIVE
-                </Link> */}
-                {/* End Button Group */}
               </div>
             </div>
           </div>

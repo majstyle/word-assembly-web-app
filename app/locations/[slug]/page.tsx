@@ -10,7 +10,6 @@ import {
   MapPin,
   Users,
   Heart,
-  ArrowRight,
   ChevronLeft,
 } from "lucide-react";
 import Link from "next/link";
