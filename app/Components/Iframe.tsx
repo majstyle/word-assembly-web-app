@@ -98,7 +98,7 @@ export default function Iframe() {
                   <span className="text-amber-600 font-semibold">2</span>
                 </div>
                 <p className="text-gray-700">
-                  Second Service: 10:30 AM - 12:30 PM
+                  Second Service: 10:00 AM - 12:00 PM
                 </p>
               </div>
             </div>

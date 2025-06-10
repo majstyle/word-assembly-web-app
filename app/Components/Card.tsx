@@ -96,6 +96,8 @@ export default function Card() {
                 src="/assets/counselling.png"
                 alt="Counseling Session"
                 fill
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute bottom-0 left-0 w-full p-6 z-20">
@@ -154,6 +156,8 @@ export default function Card() {
               <Image
                 src="/assets/PR.jpg"
                 alt="Prayer Request"
+                priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />

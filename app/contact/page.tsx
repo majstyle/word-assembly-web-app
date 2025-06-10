@@ -25,6 +25,7 @@ import {
   MessageSquare,
   Users,
   HelpCircle,
+  Link,
 } from "lucide-react";
 
 export default function Contact() {
@@ -351,21 +352,21 @@ export default function Contact() {
               variants={itemVariants}
               className="mt-8 flex  flex-wrap justify-center gap-4"
             >
-              <a
+              <Link
                 href="tel:+2348058881818"
                 className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm hover:shadow-md transition-all text-gray-700 gap-2"
               >
                 <Phone size={16} className="text-yellow-500" />
                 <span>Call Us</span>
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href="#contact-form"
                 className="inline-flex items-center px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm hover:shadow-md transition-all text-gray-700 gap-2"
               >
                 <MessageSquare size={16} className="text-yellow-500" />
                 <span>Message Us</span>
-              </a>
+              </Link>
             </motion.div>
           </motion.div>
         </div>
@@ -506,12 +507,12 @@ export default function Contact() {
                           Send another message
                         </button>
 
-                        <a
+                        <Link
                           href="/"
                           className="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-lg shadow-sm text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 transition-colors"
                         >
                           Return to homepage
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </motion.div>

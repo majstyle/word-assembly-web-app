@@ -10,7 +10,7 @@ interface ImageCarouselPopupProps {
 }
 
 export default function ImageCarouselPopup({
-  images = ["/assets/easter.jpg", "/assets/easter1.jpg"],
+  images = ["/assets/maje.jpg", "/assets/ppbcImage.jpg"],
   onClose,
 }: ImageCarouselPopupProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -49,29 +49,29 @@ export default function ImageCarouselPopup({
       <div className="relative lg:mt-8 w-full max-w-3xl p-2 rounded-lg bg-yellow-200/10 shadow-xl">
         <button
           onClick={handleClose}
-          className="absolute right-4 top-4 rounded-full text-white hover:text-black p-1 hover:bg-gray-100"
+          className="absolute right-4 top-4 rounded-full text-white hover:text-black p-1 hover:bg-gray-100 z-50"
           aria-label="Close popup"
         >
           <X className="h-6 w-6" />
         </button>
 
-        <div className="relative mt-6 aspect-video overflow-hidden rounded-md hidden lg:block">
+        <div className="relative py-2 overflow-hidden rounded-md hidden lg:block">
           <Image
             src={images[currentIndex] || "/placeholder.svg"}
             alt={`Carousel image ${currentIndex + 1}`}
-            width={600}
-            height={600}
-            className="object-cover lg:ml-[80px]"
+            width={400}
+            height={400}
+            className="object-contain w-full lg:w-auto h-auto mx-auto"
             priority
           />
         </div>
-        <div className="relative mt-10 aspect-video overflow-hidden rounded-md block lg:hidden">
+        <div className="relative py-2 overflow-hidden rounded-md block lg:hidden">
           <Image
             src={images[currentIndex] || "/placeholder.svg"}
             alt={`Carousel image ${currentIndex + 1}`}
-            width={310}
-            height={310}
-            className="object-cover ml-11"
+            width={400}
+            height={400}
+            className="object-contain w-full lg:w-auto h-auto mx-auto"
             priority
           />
         </div>

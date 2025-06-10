@@ -243,13 +243,13 @@ export default function Testimonials() {
           <p className="text-slate-600 mb-6">
             Has God done something amazing in your life?
           </p>
-          <a
+          <Link
             href="/share-testimony"
             className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-yellow-500 to-amber-500 px-8 py-4 text-base font-medium text-white shadow-lg shadow-yellow-500/20 hover:shadow-xl hover:shadow-yellow-500/30 transform hover:-translate-y-1 transition-all duration-300"
           >
             Send your Testimony{" "}
             <Link href="https://chat.whatsapp.com/JxunmOOThqyCIQDskpqz5Q"></Link>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

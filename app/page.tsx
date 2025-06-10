@@ -15,7 +15,7 @@ export default function Home() {
   const [showPopup, setShowPopup] = useState(true);
 
   // Your images - replace with your actual image paths
-  const carouselImages = ["/assets/easter.jpg", "/assets/easter1.jpg"];
+  const carouselImages = ["/assets/maje.jpg", "/assets/ppbcImage.jpg"];
   return (
     <>
       <Hero />
